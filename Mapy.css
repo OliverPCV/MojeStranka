@@ -1,0 +1,128 @@
+                                                                                            * {
+                                                                                            margin: 0;
+                                                                                            padding: 0;
+                                                                                        }
+                                                                                        
+                                                                                        .main {
+                                                                                            width: 100%;
+                                                                                            height: 100vh;
+                                                                                        }
+                                                                                        
+                                                                                        nav {
+                                                                                            width: 100%;
+                                                                                            height: 80px;
+                                                                                            background-color: #000;
+                                                                                            line-height: 80px;
+                                                                                        }
+                                                                                        
+                                                                                        nav ul {
+                                                                                            float: right;
+                                                                                            margin-right: 30px;
+                                                                                        }
+                                                                                        
+                                                                                        nav ul li {
+                                                                                            list-style-type: none;
+                                                                                            display: inline-block;
+                                                                                            transition: 0.6s ease;
+                                                                                            text-decoration: none;
+                                                                                        }
+                                                                                        
+                                                                                        nav ul li:hover {
+                                                                                            background-color: #FFF;
+                                                                                            color: #000;
+                                                                                        }
+                                                                                        
+                                                                                        nav ul li a {
+                                                                                            text-decoration: none;
+                                                                                            color: #ff9933;
+                                                                                            padding: 30px;
+                                                                                        }
+                                                                                        
+                                                                                        .container {
+                                                                                            display: flex;
+                                                                                            background-image: url(player10.jpg);
+                                                                                            background-size: cover;
+                                                                                            width: 100%;
+                                                                                            height: 100vh;
+                                                                                            margin: 0%;
+                                                                                            padding: 0%;
+                                                                                        }
+                                                                                        
+                                                                                        .container .nadpis h1 {
+                                                                                            top: 15%;
+                                                                                            color: #e9ab18;
+                                                                                            position: absolute;
+                                                                                            font-size: 43px;
+                                                                                            font-family: 'Times New Roman';
+                                                                                            text-align: center;
+                                                                                            width: 100%;
+                                                                                        }
+                                                                                        
+                                                                                        .container .nadpis p {
+                                                                                            top: 25%;
+                                                                                            color: #fff;
+                                                                                            position: absolute;
+                                                                                            text-align: center;
+                                                                                            width: 100%;
+                                                                                        }
+                                                                                        
+                                                                                        .box1,
+                                                                                        .box2,
+                                                                                        .box3,
+                                                                                        .box4 {
+                                                                                            top: 30%;
+                                                                                            color: #27d3ff;
+                                                                                            position: relative;
+                                                                                            text-align: center;
+                                                                                            padding-right: 50px;
+                                                                                            padding-left: 50px;
+                                                                                            width: 100%;
+                                                                                            flex-basis: 21%;
+                                                                                        }
+                                                                                        
+                                                                                        h1 {
+                                                                                            color: #e9ab18;
+                                                                                        }
+                                                                                        
+                                                                                        body {
+                                                                                            height: auto;
+                                                                                            position: top;
+                                                                                        }
+                                                                                        
+                                                                                        p {
+                                                                                            color: white;
+                                                                                        }
+                                                                                        
+                                                                                        .footer {
+                                                                                            background-color: #000;
+                                                                                            text-align-last: center;
+                                                                                        }
+                                                                                        
+                                                                                        .footer p {
+                                                                                            text-align: bottom;
+                                                                                        }
+                                                                                        
+                                                                                        @media screen and (max-width: 800px) and (max-width: 1200px) {
+                                                                                            .container {
+                                                                                                flex-direction: column;
+                                                                                                background-size: cover;
+                                                                                                width: 100%;
+                                                                                                height: 180vh;
+                                                                                            }
+                                                                                            .container .nadpis h1 {
+                                                                                                width: 100%;
+                                                                                                font-size: 35px;
+                                                                                            }
+                                                                                            .container .box1 .box2 .box3,
+                                                                                            .box4 {
+                                                                                                position: relative;
+                                                                                            }
+                                                                                            .container .nadpis p {
+                                                                                                text-align: center;
+                                                                                            }
+                                                                                            @media screen and (min-width: 800px) {
+                                                                                                .container {
+                                                                                                    flex-basis: 50%;
+                                                                                                    background-size: 100%;
+                                                                                                }
+                                                                                            }

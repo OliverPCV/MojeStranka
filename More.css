@@ -1,0 +1,163 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    nav {
+        width: 100%;
+        height: 80px;
+        background-color: #000;
+        line-height: 80px;
+    }
+    
+    nav ul {
+        float: right;
+        margin-right: 30px;
+    }
+    
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        transition: 0.6s ease;
+        text-decoration: none;
+    }
+    
+    nav ul li:hover {
+        background-color: #FFF;
+        color: #000;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #ff9933;
+        padding: 30px;
+    }
+    
+    .container {
+        display: flex;
+        width: 100%;
+        height: 75vh;
+        position: relative;
+        background-image: url(player8.jpg);
+        background-size: cover;
+    }
+    
+    .button {
+        position: absolute;
+        top: 55%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .btn {
+        border: 1px solid #e9ab18;
+        padding: 10px 30px;
+        color: #e9ab18;
+        transition: 0.6s;
+        text-decoration: none;
+    }
+    
+    .btn:hover {
+        background-color: #e9ab18;
+        color: #000;
+    }
+    
+    .container .zumpa {
+        position: absolute;
+        top: 44%;
+        left: 39%;
+    }
+    
+    .container .zumpa p {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        opacity: 0.8;
+    }
+    
+    .container-2 {
+        display: flex;
+        background-image: url(player9.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+    }
+    
+    .container-2 div {
+        padding: 10px;
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+    
+    .box1 {
+        order: 1;
+        flex: 3;
+    }
+    
+    .box2 {
+        flex: 1;
+        order: 2;
+    }
+    
+    .box3 {
+        flex: 1;
+        order: 3;
+    }
+    
+    p {
+        font-size: 20px;
+        text-align: left;
+        opacity: 0.7;
+    }
+    
+    h1 {
+        font-size: 30px;
+        color: #f2a900;
+        margin-bottom: 30px;
+    }
+    
+    .footer {
+        background-color: #000;
+        text-align-last: center;
+        width: 100%;
+        height: 50px;
+        color: #FFF;
+    }
+    
+    .footer p {
+        padding: 15px;
+    }
+    
+    @media screen and (min-width: 801px) and (max-width: 1200px) {
+        .container .zumpa p {
+            font-size: 35px;
+            margin-top: -25px;
+            margin-left: -29px;
+        }
+        .container-2 .box1 {
+            width: 100%;
+        }
+        .container-2 .box1 p {
+            font-size: 20px;
+        }
+        .container {
+            background-size: 100%;
+            height: 280px;
+            background-size: cover;
+        }
+        .button .btn {
+            top: 20%;
+            margin-left: 30px;
+            position: relative;
+        }
+        .nav ul li {
+            width: 100%;
+            padding: 15px;
+        }
+    }
